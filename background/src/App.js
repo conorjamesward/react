@@ -1,7 +1,10 @@
-import { Background } from "./background/Background";
+import { ParticlesBackground } from "./ParticlesBackground";
 const App = () => {
   return (
-    <Background/>
+    <div
+    className="bg-techBlue h-screen">
+      <ParticlesBackground/>
+    </div>
   );
 }
 
